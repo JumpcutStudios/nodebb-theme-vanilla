@@ -8,7 +8,7 @@
 				<img id="user-current-picture" class="user-profile-picture" src="{picture}" />
 				<!-- ELSE -->
 				<div class="user-icon user-profile-picture" style="background-color: {icon:bgColor};">{icon:text}</div>
-
+				<!-- ENDIF picture -->
 			</div>
 		</div>
 
