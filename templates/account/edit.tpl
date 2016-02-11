@@ -4,6 +4,9 @@
 	<div class="row">
 		<div class="col-md-2 col-sm-4">
 			<div class="account-picture-block text-center">
+				<!-- IF picture -->
+				<img id="user-current-picture" class="user-profile-picture" src="{picture}" />
+				<!-- ELSE -->
 				<div class="user-icon user-profile-picture" style="background-color: {icon:bgColor};">{icon:text}</div>
 
 			</div>
